@@ -1,0 +1,32 @@
+[
+ {
+   "repository"  : "device_mediatek_sepolicy_vndr",
+   "target_path" : "device/mediatek/sepolicy_vndr",
+   "remote"      : "pixel",
+   "branch"      : "twelve"
+ },
+ {
+   "repository"  : "device_xiaomi_mt6768-common",
+   "target_path" : "device/xiaomi/mt6768-common",
+   "remote"      : "pixel-devices",
+   "branch"      : "twelve"
+ },
+ {
+   "repository"  : "kernel_xiaomi_mt6768",
+   "target_path" : "kernel/xiaomi/mt6768",
+   "remote"      : "pixel-devices",
+   "branch"      : "twelve"
+ },
+ {
+   "repository"  : "vendor_xiaomi_merlinx",
+   "target_path" : "vendor/xiaomi/merlinx",
+   "remote"      : "pixel-devices-blobs",
+   "branch"      : "twelve"
+ },
+ {
+   "repository"  : "vendor_xiaomi_mt6768-ims",
+   "target_path" : "vendor/xiaomi/mt6768-ims",
+   "remote"      : "pixel-devices-blobs",
+   "branch"      : "twelve"
+ }
+]
