@@ -29,6 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 #
